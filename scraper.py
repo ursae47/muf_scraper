@@ -8,7 +8,7 @@ import json
 response = json.loads(requests.get("https://prop.kc2g.com/api/stations.json").text)
 
 #print items of interest in the USA only: MUFD, station, time
-print("{:<31} {:<20} {:<20}".format(' Station', ' MUFD', ' Time'))
+print("{:<30} {:<20} {:<20}".format(' Station', ' MUFD', ' Time'))
 for item in response:
     mufd = item['mufd']
     name = item['station']['name']
