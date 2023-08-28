@@ -1,5 +1,11 @@
 #! /usr/bin/env python3
-
+##############################################################################
+#
+#                        Program name: scraper.py
+#                        Created:      Sun Jan 25 2023 12:00
+#                        author:       Stephen Flowers Chávez
+#
+##############################################################################
 import requests
 import json
 

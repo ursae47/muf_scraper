@@ -1,4 +1,11 @@
 #! /usr/bin/env python3
+##############################################################################
+#
+#                        Program name: my_muf.py
+#                        Created:      Sun Jan 25 2023 11:00
+#                        author:       Stephen Flowers Chávez
+#
+##############################################################################
 import pandas as pd
 
 #reading flat file using pandas
