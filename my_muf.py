@@ -12,7 +12,7 @@ import pandas as pd
 muf_data = pd.read_csv('data.txt', sep="\t" )
 
 #set a minimum threshold frequency
-muf = muf_data[(muf_data['MUFD']>14.150)]
+muf = muf_data[(muf_data['MUFD']>14.050)]
 
 #print(muf)
 #i want to only print out or output USA stations
