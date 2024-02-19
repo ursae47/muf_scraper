@@ -9,7 +9,6 @@
 import requests
 import json
 
-
 #downloading json string from URL which gets automatically updated
 response = json.loads(requests.get("https://prop.kc2g.com/api/stations.json").text)
 
