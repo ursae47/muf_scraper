@@ -19,9 +19,10 @@ for item in response:
     name = item['station']['name']
     time = item['time']
     if name.find('USA')>=0:
+         if time.find('2025')>=0:
 #        print('Station: ', name, '\t\tMUFD: ', mufd, '\t\tTime: ', time)
 #        print("Station: %s, MUFD: %s, Time: %s" % (name, mufd, time))
-        print("{:<30} {:<20} {:<20}".format(name, str(mufd), time))
+            print("{:<30} {:<20} {:<20}".format(name, str(mufd), time))
         
         
         
