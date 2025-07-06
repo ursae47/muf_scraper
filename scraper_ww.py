@@ -1,8 +1,8 @@
 #! /usr/bin/env python3
 ##############################################################################
 #
-#                        Program name: scraper.py
-#                        Created:      Sun Jan 25 2023 12:00
+#                        Program name: scraper_ww.py
+#                        Created:      Sun Jul 06 2025 13:11
 #                        author:       Stephen Flowers Chávez
 #
 ##############################################################################
